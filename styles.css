@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-image: url('sakura.jpg'); /* isso vai dar o fundo */
+  background-image: url('sakura.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -30,7 +30,6 @@ nav li {
 }
 
 nav a {
-  /* isso vai destacar o menu */
   text-decoration: none;
   color: #333;
   font-weight: 600;
@@ -39,7 +38,6 @@ nav a {
 }
 
 nav a:hover {
-  /* isso vai dar a cor rosa (sakura) */
   color: #ff69b4;
 }
 
