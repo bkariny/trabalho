@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-image: url('sakura.jpg');
+  background-image: url('sakura.jpg'); /* isso vai dar o fundo /*
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
