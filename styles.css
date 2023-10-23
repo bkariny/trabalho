@@ -1,6 +1,6 @@
 body {
   font-family: "Helvetica Neue", Arial, sans-serif;
-  background-image: url('sakura.jpg'); /* isso vai dar o fundo /*
+  background-image: url('sakura.jpg'); /* isso vai dar o fundo */
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
 }
 
 header {
-  background: #fff; /* Fundo branco para cabeçalho */
+  background: #fff; /* Fundo branco */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
@@ -30,7 +30,7 @@ nav li {
 }
 
 nav a {
-  /* isso vai destacar o menu /*
+  /* isso vai destacar o menu */
   text-decoration: none;
   color: #333;
   font-weight: 600;
@@ -39,7 +39,7 @@ nav a {
 }
 
 nav a:hover {
-  /* isso vai dar a cor rosa (sakura) /*
+  /* isso vai dar a cor rosa (sakura) */
   color: #ff69b4;
 }
 
