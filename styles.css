@@ -1,0 +1,68 @@
+/* styles.css */
+body.sakura-theme {
+  background: linear-gradient(to bottom, #ffbbe8, #ff70a6);
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+header {
+  background: #ffbbe8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ff70a6; /* Sakura pink color */
+  font-weight: bold;
+  transition: color 0.3s, opacity 0.3s; /* Add transition properties */
+}
+
+/* Apply styles when hovering over a link */
+nav a:hover {
+  color: #ff9770; /* Highlighted link color */
+  opacity: 0.7; /* Slightly transparent effect for other links */
+}
+
+.content {
+  background: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+.content h1 {
+  font-size: 24px;
+  margin: 20px 0;
+}
+
+/* Create Sakura petals with animations */
+.sakura-petal {
+  position: absolute;
+  border-radius: 50%;
+  background: #ff70a6; /* Sakura pink color */
+  animation: float 10s linear infinite;
+  opacity: 0.7;
+}
+
+/* Add more Sakura petals and adjust properties as needed */
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+    opacity: 0.7;
+  }
+  100% {
+    transform: translateY(-500px);
+    opacity: 0;
+  }
+}
