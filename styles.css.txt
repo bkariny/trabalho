@@ -1,29 +1,57 @@
 /* styles.css */
-body {
-  font-family: Arial, sans-serif;
-}
-
-header {
-  background-color: #333;
+body.sakura-theme {
+  background: linear-gradient(45deg, #ff70a6, #ff9770);
+  background-size: 400% 400%;
+  animation: gradientAnimation 10s infinite;
   color: #fff;
-  text-align: center;
 }
 
-nav ul {
+@keyframes gradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.linktree-style {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.linktree-style h1 {
+  font-size: 24px;
+  margin-top: 0;
+  color: #333;
+}
+
+.linktree-style ul {
   list-style: none;
   padding: 0;
 }
 
-nav li {
-  display: inline;
-  margin-right: 20px;
+.linktree-style li {
+  margin: 10px 0;
 }
 
-nav a {
+.linktree-style a {
   text-decoration: none;
-  color: #fff;
+  color: #ff70a6;
+  font-weight: bold;
+  font-size: 18px;
+  display: block;
+  transition: color 0.3s;
 }
 
-h1 {
-  text-align: center;
+.linktree-style a:hover {
+  color: #ff9770;
 }
