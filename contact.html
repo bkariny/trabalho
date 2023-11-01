@@ -21,5 +21,23 @@
     <p>Nome: Brennda Kariny Silva de Lima</p>
     <p>Email: <a href="mailto:bkariny123@gmail.com">bkariny123@gmail.com</a></p>
   </div>
+  <!-- Seção de Contato -->
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>Para entrar em contato comigo, preencha o formulário abaixo:</p>
+    <form action="processar_formulario.php" method="post">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="seu.email@example.com" required>
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="4" placeholder="Sua mensagem..." required></textarea>
+      <!-- O atributo 'name' define o nome do campo de mensagem no formulário -->
+      
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
 </body>
 </html>
